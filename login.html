@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <!-- Tailwind -->
+    <script src="assets/js/alpine.min.js" defer></script>
+    <link href="assets/css/tailwind.output.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="w-full flex-col">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2 xl:w-2/5 lg:h-screen h-auto pt-20 pb-20 grid justify-items-center">
+                <div class="w-3/4 self-center">
+                    <h1 class="uppercase text-4xl tracking-wide font-agenor-bold font-sans mb-6 sm:text-6xl">LOG IN</h1>
+                    <form class="login-form">
+                        <div class="form-panel">
+                            <label class="form-label" for="email">Email ID</label>
+                            <input class="form-input" id="" name="email" type="text" required="" placeholder="Email address" aria-label="email" aria-required="true">
+                        </div>
+                        <div class="form-panel mt-4">
+                            <label class="form-label" for="password">Password</label>
+                            <input class="form-input" id="" name="password" type="text" required="" placeholder="8+ character" aria-label="password" aria-required="true">
+                        </div>
+                        <div class="flex flex-wrap">
+                            <div class="sm:w-1/2 w-full mt-3">
+                                <label class="inline-flex items-center">
+                                <input class="form-checkbox" type="checkbox" checked="">
+                                <span class="ml-2">Remember Me</span>
+                            </label>
+                            </div>
+                            <div class="sm:w-1/2 w-full mt-3">
+                                <a href="#" class="main-text-color float-right">Forget Password ?</a>
+                            </div>
+                        </div>
+                        <button type="submit" class="button blue-btn">
+                        SIGN IN
+                    </button>
+                    </form>
+                </div>
+            </div>
+            <div class="banner w-full lg:w-1/2 xl:w-3/5 lg:h-screen h-auto pt-40 grid">
+                <div class="relative self-end">
+                    <div class="relative w-full overflow-hidden text-center">
+                        <input class="input-checked hidden" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                        <div class="opacity-0 absolute m-auto text-white input-checked:static input-checked:opacity-100 transition-opacity ease-out duration-700">
+                            <img src="assets/images/macbook.png" alt="" class="block max-w-full m-auto w-5/7">
+                            <div class="bg-primary h-72 sm:h-64 pt-12">
+                                <h2 class="text-2xl sm:text-3xl font-agenor-regular font-sans tracking-wide">Welcome to 360<sup>0</sup> VIEW</h2>
+                                <p class="text-xs sm:text-sm tracking-wide font-light mt-2.5 w-5/7 m-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugit eaque dolores, rerum reiciendis atque. Voluptatibus eaque quaerat, adipisci tempore ex in sunt et similique laborum eveniet quia! Voluptate, quo?</p>
+                            </div>
+                        </div>
+                        <input class="input-checked hidden" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                        <div class="opacity-0 absolute m-auto text-white input-checked:static input-checked:opacity-100 transition-opacity ease-out duration-700">
+                            <img src="assets/images/macbook.png" alt="" class="block max-w-full m-auto w-5/7">
+                            <div class="bg-primary h-72 sm:h-64 pt-12">
+                                <h2 class="text-2xl sm:text-3xl font-agenor-regular font-sans tracking-wide">Welcome to 360<sup>0</sup> VIEW</h2>
+                                <p class="text-xs sm:text-sm tracking-wide font-light mt-2.5 w-5/7 m-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugit eaque dolores, rerum reiciendis atque. Voluptatibus eaque quaerat, adipisci tempore ex in sunt et similique laborum eveniet quia! Voluptate, quo?</p>
+                            </div>
+                        </div>
+                        <input class="input-checked hidden" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                        <div class="opacity-0 absolute m-auto text-white input-checked:static input-checked:opacity-100 transition-opacity ease-out duration-700">
+                            <img src="assets/images/macbook.png" alt="" class="block max-w-full m-auto w-5/7">
+                            <div class="bg-primary h-72 sm:h-64 pt-12">
+                                <h2 class="text-2xl sm:text-3xl font-agenor-regular font-sans tracking-wide">Welcome to 360<sup>0</sup> VIEW</h2>
+                                <p class="text-xs sm:text-sm tracking-wide font-light mt-2.5 w-5/7 m-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugit eaque dolores, rerum reiciendis atque. Voluptatibus eaque quaerat, adipisci tempore ex in sunt et similique laborum eveniet quia! Voluptate, quo?</p>
+                            </div>
+                        </div>
+                        <ol class="list-none m-0 p-0 absolute bottom-10 left-0 right-0 text-center z-10">
+                            <li class="inline-block my-0 mx-1.5">
+                                <label for="carousel-1" class="bg-white cursor-pointer block h-2.5 w-2.5 opacity-50 hover:opacity-100"></label>
+                            </li>
+                            <li class="inline-block my-0 mx-1.5">
+                                <label for="carousel-1" class="bg-white cursor-pointer block h-2.5 w-2.5 opacity-50 hover:opacity-100"></label>
+                            </li>
+                            <li class="inline-block my-0 mx-1.5">
+                                <label for="carousel-1" class="bg-white cursor-pointer block h-2.5 w-2.5 opacity-50 hover:opacity-100"></label>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+
+</html>
